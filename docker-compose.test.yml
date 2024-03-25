@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  node-test:
+    build: 
+      context: .
+      dockerfile: Dockerfile.test
+    volumes:
+      - .:/app
